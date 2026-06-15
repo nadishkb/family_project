@@ -1,0 +1,183 @@
+╔═══════════════════════════════════════════════════════════════╗
+║   TEXTILE COMPANY WEBSITE - 24 HOUR LAUNCH CHECKLIST         ║
+║   Print this page and check off as you go!                   ║
+╚═══════════════════════════════════════════════════════════════╝
+
+START TIME: __________ (What time are you starting?)
+TARGET LAUNCH: 24 hours from start
+
+════════════════════════════════════════════════════════════════
+📝 PHASE 1: CONTENT WRITING (Est. 1-2 hours)
+════════════════════════════════════════════════════════════════
+
+☐ Wrote company name & tagline
+☐ Completed "About Us" section
+☐ Described 3+ products with features
+☐ Collected contact details
+☐ Added any special value propositions
+☐ Saved all content in a text file for reference
+
+START TIME: ________  |  END TIME: ________  |  ✓ COMPLETE
+
+
+════════════════════════════════════════════════════════════════
+🖼️  PHASE 2: PREPARE IMAGES (Est. 1 hour)
+════════════════════════════════════════════════════════════════
+
+IMAGE FORMAT CHECK:
+☐ Product images are JPG or PNG format
+☐ Scanned/PDF images converted to JPG
+
+IMAGE OPTIMIZATION:
+☐ Images resized if larger than 500 KB
+☐ Compression applied to reduce file size
+
+FILE ORGANIZATION:
+☐ Created "my-website" folder
+☐ Put textile-website.html in main folder
+☐ Created "images" subfolder inside
+☐ Placed all images in images/ folder
+☐ Renamed images: product1.jpg, product2.jpg, product3.jpg, company.jpg
+
+START TIME: ________  |  END TIME: ________  |  ✓ COMPLETE
+
+
+════════════════════════════════════════════════════════════════
+✏️  PHASE 3: CUSTOMIZE HTML (Est. 1.5 hours)
+════════════════════════════════════════════════════════════════
+
+HOME PAGE:
+☐ Updated header logo/company name
+☐ Changed main headline
+☐ Updated tagline/subtitle
+☐ Added welcome text
+
+PRODUCTS PAGE:
+☐ Product 1: Name updated
+☐ Product 1: Description complete
+☐ Product 1: Features listed
+☐ Product 1: Image added
+☐ Product 2: Name updated
+☐ Product 2: Description complete
+☐ Product 2: Features listed
+☐ Product 2: Image added
+☐ Product 3: Name updated
+☐ Product 3: Description complete
+☐ Product 3: Features listed
+☐ Product 3: Image added
+
+ABOUT PAGE:
+☐ Company story written
+☐ Quality Craftsmanship section updated
+☐ Sustainable Practices section updated
+☐ Custom Solutions section updated
+☐ Expert Team section updated
+☐ Company image added
+
+CONTACT PAGE:
+☐ Phone number updated
+☐ Email address updated
+☐ Physical address updated
+☐ Business hours added (optional)
+
+FILE SAVED:
+☐ HTML file saved as textile-website.html
+☐ No errors when opening HTML file in browser
+
+START TIME: ________  |  END TIME: ________  |  ✓ COMPLETE
+
+
+════════════════════════════════════════════════════════════════
+🧪 PHASE 4: LOCAL TESTING (Est. 30 minutes)
+════════════════════════════════════════════════════════════════
+
+FUNCTIONALITY TEST:
+☐ Website opens in browser without errors
+☐ Clicked "Home" link - works ✓
+☐ Clicked "Products" link - works ✓
+☐ Clicked "About" link - works ✓
+☐ Clicked "Contact" link - works ✓
+
+CONTENT CHECK:
+☐ All text displays correctly
+☐ No placeholder text visible
+☐ Company information is accurate
+☐ Contact details are correct
+
+IMAGE CHECK:
+☐ Product 1 image displays
+☐ Product 2 image displays
+☐ Product 3 image displays
+☐ Company/about image displays
+☐ All images are clear and properly sized
+
+RESPONSIVE CHECK:
+☐ Website looks good on full screen (1920px)
+☐ Website looks good on tablet (768px)
+☐ Website looks good on phone (375px)
+  [HOW: Resize browser window or press F12 → click phone icon]
+
+START TIME: ________  |  END TIME: ________  |  ✓ COMPLETE
+
+
+════════════════════════════════════════════════════════════════
+🚀 PHASE 5: NETLIFY DEPLOYMENT (Est. 20 minutes)
+════════════════════════════════════════════════════════════════
+
+NETLIFY ACCOUNT:
+☐ Created Netlify account at netlify.com
+☐ Logged in successfully
+☐ See "Drag and drop" option on dashboard
+
+PREPARE FOLDER:
+☐ "my-website" folder contains:
+   - textile-website.html (main file)
+   - images/ subfolder (with all images)
+☐ Nothing else in main folder
+
+DEPLOY:
+☐ Dragged "my-website" folder to Netlify
+☐ Upload started and completed
+☐ Received live URL: ____________________________
+
+VERIFICATION:
+☐ Clicked the live URL
+☐ Website loads completely
+☐ All pages accessible
+☐ All images display
+☐ Content shows correctly
+☐ Share URL with team/client
+
+START TIME: ________  |  END TIME: ________  |  ✓ COMPLETE
+
+════════════════════════════════════════════════════════════════
+
+🎉 WEBSITE IS LIVE!
+
+YOUR LIVE URL: ____________________________________
+
+Share this URL with:
+☐ Team members
+☐ Client/stakeholders
+☐ Social media
+☐ Google Business profile
+☐ Email signature
+
+════════════════════════════════════════════════════════════════
+NOTES & ISSUES ENCOUNTERED:
+════════════════════════════════════════════════════════════════
+
+Issue 1: ___________________________________________
+Solution: ___________________________________________
+
+Issue 2: ___________________________________________
+Solution: ___________________________________________
+
+Issue 3: ___________________________________________
+Solution: ___________________________________________
+
+════════════════════════════════════════════════════════════════
+TOTAL TIME SPENT: __________ hours
+LAUNCHED SUCCESSFULLY: ☐ YES  ☐ SCHEDULED FOR: __________
+
+════════════════════════════════════════════════════════════════

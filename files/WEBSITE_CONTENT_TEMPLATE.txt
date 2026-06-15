@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════════
+TEXTILE COMPANY WEBSITE - CONTENT TEMPLATE
+═══════════════════════════════════════════════════════════════
+
+HOME PAGE
+─────────
+Headline: [Your company name - what you do in one line]
+Example: "Premium Handwoven Textiles for Modern Living"
+
+Tagline/Subheading: [One sentence about your unique value]
+Example: "Sustainable, artisanal fabrics crafted with tradition"
+
+Brief intro (2-3 sentences): [What makes your textiles special]
+
+
+ABOUT PAGE
+──────────
+Company Name: 
+Founded: 
+Location: 
+Company Story (3-4 sentences): [Your journey, values, what drives you]
+
+Why Choose Us (3-4 key points):
+1. [Point 1 - e.g., "Sustainable practices"]
+2. [Point 2 - e.g., "Expert craftsmanship"]
+3. [Point 3 - e.g., "Custom solutions"]
+4. [Point 4 - e.g., "Quality guarantee"]
+
+
+PRODUCTS PAGE
+──────────────
+List each product category:
+
+Product 1 Name: 
+Description (2 sentences): 
+Key Features (3 bullet points):
+• 
+• 
+• 
+
+[Repeat for each product type - aim for 3-5 main categories]
+
+
+CONTACT PAGE
+────────────
+Phone: 
+Email: 
+Address: 
+Business Hours: 
+Social Media Links (if any):
+- Instagram:
+- Facebook:
+- LinkedIn:
+
+Message: [2-3 sentences about how you'll respond to inquiries]
+
+
+QUICK TIPS FOR WRITING:
+✓ Keep sentences short and clear
+✓ Use active voice ("We create" not "Textiles are created")
+✓ Include specific details (materials, sizes, techniques)
+✓ Highlight what makes YOU different
+✓ Don't overcomplicate - simple is better for fast launch
+═══════════════════════════════════════════════════════════════

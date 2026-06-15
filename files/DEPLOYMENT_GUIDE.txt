@@ -1,0 +1,257 @@
+═══════════════════════════════════════════════════════════════════════════════
+TEXTILE WEBSITE - COMPLETE DEPLOYMENT GUIDE (24-HOUR TIMELINE)
+═══════════════════════════════════════════════════════════════════════════════
+
+⏱️  TIMELINE:
+├─ HOURS 1-2:   Write your content
+├─ HOURS 2-3:   Prepare images
+├─ HOURS 3-4:   Customize HTML template
+├─ HOURS 4-5:   Test locally
+├─ HOUR 5:      Deploy to Netlify
+└─ BUFFER:      30 minutes for troubleshooting
+
+═══════════════════════════════════════════════════════════════════════════════
+STEP 1: WRITE YOUR CONTENT (1-2 HOURS)
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ Open: WEBSITE_CONTENT_TEMPLATE.txt
+✓ Fill in all sections:
+  - Company name & tagline
+  - About page (story, values)
+  - 3-4 product descriptions with features
+  - Contact information
+
+SAVE AS: content.txt (for reference while editing HTML)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+STEP 2: PREPARE YOUR IMAGES (1 HOUR)
+═══════════════════════════════════════════════════════════════════════════════
+
+IMPORTANT: You have JPG/PNG photos AND scanned/PDF files
+
+OPTION A: For JPG/PNG Photos (USE THESE)
+──────────────────────────────────────
+✓ DO NOTHING - use them as-is
+✓ Recommended file size: Under 500 KB per image
+✓ If images are LARGER than 500 KB:
+  - Right-click image → Compress or Resize
+  - Reduce to 50-70% of original size
+  - Save as JPG (better compression than PNG)
+
+OPTION B: For Scanned Images/PDFs (NEED CONVERSION)
+────────────────────────────────────────────────────
+If you have PDF or scanned images:
+1. Take a screenshot of the PDF or scanned image
+   - Windows: Press PrtScn, paste in Paint, save as JPG
+   - Mac: Cmd+Shift+4, drag to select, auto-saves
+   
+2. OR use free online tool:
+   - Go to: https://www.ilovepdf.com/
+   - Upload PDF
+   - Click "PDF to Images"
+   - Download as JPG
+
+CREATE A FOLDER STRUCTURE:
+────────────────────────
+Create these folders on your computer:
+   my-website/
+   ├── textile-website.html
+   ├── images/
+   │   ├── product1.jpg
+   │   ├── product2.jpg
+   │   ├── product3.jpg
+   │   └── company.jpg
+   └── content.txt
+
+Keep ALL files in one folder (no subfolders for now - easier for Netlify)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+STEP 3: CUSTOMIZE THE HTML TEMPLATE (1.5 HOURS)
+═══════════════════════════════════════════════════════════════════════════════
+
+WHAT YOU NEED:
+✓ Open: textile-website.html with Notepad (Windows) or TextEdit (Mac)
+✓ Have your: content.txt file ready
+
+HOW TO EDIT (FIND & REPLACE):
+
+1. HEADER & NAVIGATION
+   Find:     "🧵 Your Textile Co."
+   Replace:  "[Your Company Name]"
+
+2. HOME PAGE
+   Find:     "Premium Textile Solutions"
+   Replace:  "[Your main headline]"
+   
+   Find:     "Your company tagline goes here"
+   Replace:  "[Your tagline/value proposition]"
+   
+   Find:     "Add your home page introduction here..."
+   Replace:  "[Your welcome text - 2-3 sentences]"
+
+3. PRODUCT PAGE (Repeat for each product):
+   
+   For PRODUCT 1:
+   Find:     "Product Name 1"
+   Replace:  "[Your Product 1 Name]"
+   
+   Find:     "Description of your product goes here..."
+   Replace:  "[Product 1 description]"
+   
+   Find:     "Feature 1" / "Feature 2" / "Feature 3"
+   Replace:  "[Your actual features]"
+   
+   Find:     <img src="" alt="Product 1"
+   Replace:  <img src="images/product1.jpg" alt="[Product Name]"
+   
+   DO THE SAME FOR PRODUCT 2 AND PRODUCT 3
+
+4. ABOUT PAGE
+   Find:     "Tell your company's story here..."
+   Replace:  "[Your company story]"
+   
+   Find the four "Why Choose Us" cards:
+   - "Quality Craftsmanship" → [Your quality info]
+   - "Sustainable Practices" → [Your sustainability info]
+   - "Custom Solutions" → [Your customization info]
+   - "Expert Team" → [Your team info]
+   
+   Find:     <img src="" alt="Company Image"
+   Replace:  <img src="images/company.jpg" alt="Company Photo"
+
+5. CONTACT PAGE
+   Find:     "+91 XXXXX XXXXX"
+   Replace:  "[Your phone number]"
+   
+   Find:     "contact@yourtextiles.com"
+   Replace:  "[Your email address]"
+   
+   Find:     "Your City, State"
+   Replace:  "[Your actual address]"
+
+SAVE YOUR FILE:
+✓ File → Save
+✓ Make sure it's saved as: textile-website.html
+
+
+═══════════════════════════════════════════════════════════════════════════════
+STEP 4: TEST YOUR WEBSITE LOCALLY (30 MINUTES)
+═══════════════════════════════════════════════════════════════════════════════
+
+WINDOWS:
+1. Find textile-website.html on your computer
+2. Right-click → Open with → Chrome (or your browser)
+3. Check:
+   ✓ All pages load (click navigation menu)
+   ✓ All images appear
+   ✓ Text is correct
+   ✓ Buttons work
+   ✓ Form page doesn't crash when you click "Send"
+
+MAC:
+1. Open Finder → find textile-website.html
+2. Right-click → Open With → Safari (or Chrome)
+3. Do the same checks as above
+
+IF SOMETHING DOESN'T WORK:
+- Images not showing? Check image filenames match exactly
+- Text looks wrong? Make sure you saved the HTML file
+- Still broken? Try using a code editor like VS Code (free)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+STEP 5: DEPLOY TO NETLIFY (15 MINUTES)
+═══════════════════════════════════════════════════════════════════════════════
+
+PREPARATION:
+Before starting, gather in ONE folder:
+  ✓ textile-website.html
+  ✓ images/ folder (with your product images)
+
+DEPLOYMENT STEPS:
+
+1. GO TO NETLIFY
+   → Open: https://www.netlify.com/
+   → Click "Sign Up" (use Google or GitHub account - easiest)
+
+2. CREATE ACCOUNT
+   → Choose "Sign up with Google" or "Sign up with GitHub"
+   → Follow simple steps (< 2 min)
+
+3. DRAG & DROP DEPLOYMENT
+   → After login, you'll see Netlify dashboard
+   → Look for "Drag and drop your site folder here"
+   → Select your "my-website" folder from your computer
+   → Wait 10-30 seconds...
+
+4. WAIT FOR DEPLOYMENT
+   → You'll see a progress bar
+   → Once done, it will give you a URL like:
+     "https://brave-sunset-xyz123.netlify.app"
+   → Your website is LIVE! 🎉
+
+5. GET A CUSTOM DOMAIN (OPTIONAL - NEXT STEP)
+   → In Netlify dashboard, click "Domain Settings"
+   → Click "Add custom domain"
+   → Enter your domain name (if you have one)
+   → Follow instructions
+
+
+═══════════════════════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════════════════════
+
+Problem: Images not showing on live website
+Solution: In Netlify dashboard, delete the deployment and re-upload with images
+
+Problem: Contact form says "Send Message" but nothing happens
+Solution: This is normal! For a real form, you'd need a backend service (skip for MVP)
+
+Problem: Text looks weird/formatting broken
+Solution: Open textile-website.html in Notepad again, make sure no extra spaces
+
+Problem: Site won't load at all
+Solution: Check that textile-website.html is at the root of your folder, not in a subfolder
+
+═══════════════════════════════════════════════════════════════════════════════
+FINAL CHECKLIST BEFORE GOING LIVE
+═══════════════════════════════════════════════════════════════════════════════
+
+CONTENT:
+☐ Company name updated everywhere
+☐ All product descriptions complete (at least 3)
+☐ Contact info is correct and current
+☐ About page tells your story
+☐ No placeholder text remaining
+
+IMAGES:
+☐ Product images are JPG format and < 500 KB
+☐ Image filenames match in HTML (e.g., "product1.jpg")
+☐ All images are in "images/" folder
+☐ Company photo added to About page
+
+FUNCTIONALITY:
+☐ All page links work (Home, Products, About, Contact)
+☐ Website looks good on phone (test with browser resize)
+☐ Tested locally in browser before uploading
+
+NETLIFY:
+☐ Account created
+☐ Folder includes HTML + images folder
+☐ Uploaded to Netlify successfully
+☐ URL is live and accessible
+
+═══════════════════════════════════════════════════════════════════════════════
+NEXT STEPS (AFTER LAUNCH)
+═══════════════════════════════════════════════════════════════════════════════
+
+After you go live:
+1. Share your Netlify URL: https://brave-sunset-xyz123.netlify.app
+2. Add to business profiles (Google Business, Social Media)
+3. Get a custom domain: yourtextiles.com (through Netlify or GoDaddy)
+4. Add contact form backend (later - not needed for MVP)
+5. Add more products/images as needed
+
+═══════════════════════════════════════════════════════════════════════════════
